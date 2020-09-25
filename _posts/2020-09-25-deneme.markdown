@@ -1,6 +1,6 @@
 ---
-title: Deneme
+title: Deneme1
 date: 2020-09-25 21:45:00 +03:00
 ---
 
-Deneme post
+Deneme1
