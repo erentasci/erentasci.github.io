@@ -1,6 +1,6 @@
 ---
-title: Erentasci.Github.Io
-timezone: UTC
+title: Eren Taşçı
+timezone: Europe/Istanbul
 collections:
   posts:
     title: Posts
@@ -8,27 +8,27 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Your Name
-description: Web Developer from Somewhere
-avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+name: Eren Taşçı
+description: Software Development & Cyber Security
+avatar: images/IMG_3351-1.jpg
 footer-links:
   dribbble: 
-  email: 
+  email: erent4sci@gmail.com
   facebook: 
   flickr: 
-  github: barryclark/jekyll-now
-  instagram: 
+  github: erentasci
+  instagram: er3ntasci
   linkedin: 
   pinterest: 
   rss: 
-  twitter: jekyllrb
+  twitter: er3ntasci
   stackoverflow: 
   youtube: 
   googleplus: 
 disqus: 
 google_analytics: 
 url: 
-baseurl: ''
+baseurl: 
 permalink: "/:title/"
 version: v1.2.0
 kramdown:
@@ -37,7 +37,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :expanded
+  style: expanded
 gems:
 - jekyll-sitemap
 - jekyll-feed
