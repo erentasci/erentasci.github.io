@@ -1,0 +1,6 @@
+---
+title: Deneme
+date: 2020-09-25 21:45:00 +03:00
+---
+
+Deneme post
