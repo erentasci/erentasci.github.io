@@ -84,7 +84,7 @@ Ip adresini tanımladık gördüğünüz gibi.
 
 ![Kali LİNUX-2020-10-09-23-21-17.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-17.png)
 
-Ardından **run** diyerek çalıştırıp shell almaya çalışıyorum.
+Ardından **exploit** diyerek çalıştırıp shell almaya çalışıyorum.
 
 ![Kali LİNUX-2020-10-10-00-45-20.png](/uploads/Kali%20L%C4%B0NUX-2020-10-10-00-45-20.png)
 
