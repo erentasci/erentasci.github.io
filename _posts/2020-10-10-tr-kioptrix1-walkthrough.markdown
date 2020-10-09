@@ -84,11 +84,16 @@ Ip adresini tanımladık gördüğünüz gibi.
 
 ![Kali LİNUX-2020-10-09-23-21-17.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-17.png)
 
-Ardından **exploit** diyerek shell almaya çalışıyorum.
+Ardından **run** diyerek çalıştırıp shell almaya çalışıyorum.
 
-![Kali LİNUX-2020-10-09-23-21-33.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-33.png)
+![Kali LİNUX-2020-10-10-00-45-20.png](/uploads/Kali%20L%C4%B0NUX-2020-10-10-00-45-20.png)
 
-**Whoami** komutu ile root olduğumuzu gördük.Kioptrix1 makinesini başarıyla ele geçirmiş olduk.
+**Whoami** komutu ile root olduğumuzu gördük.
+
+![Kali LİNUX-2020-10-10-00-52-03.png](/uploads/Kali%20L%C4%B0NUX-2020-10-10-00-52-03.png)
+
+Şimdi var/mail/ dizini içerisinde root u okuyoruz ve başarıyla
+flag tamamladık.
 
 ![Kali LİNUX-2020-10-09-23-21-42.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-42.png)
 
