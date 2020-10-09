@@ -21,10 +21,10 @@ Ardından sanal makinemde localhost üzerinden **arp-scan -l** taraması yapıyo
 
 ![Kali LİNUX-2020-10-09-23-02-50.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-02-50.png)
 
-Evet,Kioptrix1 isimli hedef makinemizin IP Adresi **192.168.75.156** olarak öğrendim.
+Evet,Kioptrix1 isimli hedef makinemizin IP Adresini **192.168.75.156** olarak öğrendim.
 
 Şimdi sırada nmap taraması yapmakta.
-**nmap -sS -sV  192.168.75.156** komutu ile nmap taramamı başlatıyorum.Bu taramada tcp syn scan isteği ve version tespitini de istemiş oluyorum.
+**nmap -sS -sV  192.168.75.156** komutu ile nmap taramamı başlatıyorum.Bu taramada tcp syn scan isteği ve versiyon tespitini de istemiş oluyorum.
 
 ![Kali LİNUX-2020-10-09-23-04-53-8d7406.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-04-53-8d7406.png)
 
@@ -43,11 +43,11 @@ Bu modül içeriğini baktığımda **scanner/smb/smb_version** modülünü gör
 
 ![Kali LİNUX-2020-10-09-23-13-50.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-13-50.png)
 
-Şimdi sıra bu modülü kullanmakta.Komut satırına **use scanner/smb/smb_version yazarak bunu yapıyorum.
+Şimdi sıra bu modülü kullanmakta.Komut satırına **use scanner/smb/smb_version** yazarak bunu yapıyorum.
 
 ![Kali LİNUX-2020-10-09-23-14-06-951382.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-14-06-951382.png)
 
-Bu modülün ayarlamalarını yapacağım çünkü buna hedef makinenin IP adresini tanımlamam gerek.Komut satırına **show options** komutu yazarak bunu yapıyorum.
+Bu modülün ayarlamalarını yapacağım çünkü buna hedef makinenin IP adresini tanımlamam gerek.Komut satırına **show options** komutu yazarak ayarlamaları görüntülüyorum.
 
 ![Kali LİNUX-2020-10-09-23-14-19-64ce2e.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-14-19-64ce2e.png)
 
@@ -62,7 +62,7 @@ Hedef makinemizin IP Adresini tanımladıktan sonra **run** komutu ile bu modül
 
 EVET! Version tespitini yaptık **Samba 2.2.1a**
 
-Şimdi bu versiyona uygun exploit bulmakta.Msfconsole içerisinde **search Samba 2.2 ** komutu ile arama yapıyorum.
+Şimdi bu versiyona uygun exploit bulmakta.Msfconsole içerisinde **search Samba 2.2** komutu ile arama yapıyorum.
 
 ![Kali LİNUX-2020-10-09-23-16-35.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-16-35.png)
 
@@ -71,7 +71,7 @@ Bize uygun exploit seçeneğini buldum gibi.Bu modülü kullanacağım.Bunun iç
 ![Kali LİNUX-2020-10-09-23-17-45.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-17-45.png)
 ![Kali LİNUX-2020-10-09-23-18-00.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-18-00.png)
 
-EVETT Ip adresini tanımladık gördüğünüz gibi.
+Ip adresini tanımladık gördüğünüz gibi.
 
 ![Kali LİNUX-2020-10-09-23-18-08.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-18-08.png)
 
@@ -80,7 +80,7 @@ EVETT Ip adresini tanımladık gördüğünüz gibi.
 
 ![Kali LİNUX-2020-10-09-23-19-33.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-19-33.png)
 
-İçeriğine bakarak bana uygun olan payload olan **linux//x86/shell/reverse_tcp ** gibi bunu kullanarak hedef makine üzerinde Reverse Shell almayı deneyeceğim.
+İçeriğine bakarak bana uygun olan payload olan **linux//x86/shell/reverse_tcp** gibi bunu kullanarak hedef makine üzerinde Reverse Shell almayı deneyeceğim.
 
 ![Kali LİNUX-2020-10-09-23-21-17.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-17.png)
 
@@ -90,8 +90,7 @@ Ardından **exploit** diyerek shell almaya çalışıyorum.
 
 **Whoami** komutu ile root olduğumuzu gördük.Kioptrix1 makinesini başarıyla ele geçirmiş olduk.
 
-
-
+![Kali LİNUX-2020-10-09-23-21-42.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-42.png)
 
 
 
