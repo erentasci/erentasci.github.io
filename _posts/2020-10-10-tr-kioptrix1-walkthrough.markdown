@@ -86,7 +86,7 @@ Ip adresini tanımladık gördüğünüz gibi.
 
 Ardından **exploit** diyerek çalıştırıp shell almaya çalışıyorum.
 
-![Kali LİNUX-2020-10-10-00-45-20.png](/uploads/Kali%20L%C4%B0NUX-2020-10-10-00-45-20.png)
+![Kali LİNUX-2020-10-09-23-21-33-43457c.png](/uploads/Kali%20L%C4%B0NUX-2020-10-09-23-21-33-43457c.png)
 
 **Whoami** komutu ile root olduğumuzu gördük.
 
