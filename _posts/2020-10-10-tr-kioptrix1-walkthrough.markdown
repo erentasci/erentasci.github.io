@@ -1,5 +1,5 @@
 ---
-title: "[TR] Kioptrix1 - Walkthrough"
+title: "[TR] CTF:Kioptrix1 - Walkthrough"
 date: 2020-10-10 00:24:00 +03:00
 tags:
 - ctf
