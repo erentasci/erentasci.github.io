@@ -92,7 +92,7 @@ Ardından **exploit** diyerek çalıştırıp shell almaya çalışıyorum.
 
 ![Kali LİNUX-2020-10-10-00-52-03.png](/uploads/Kali%20L%C4%B0NUX-2020-10-10-00-52-03.png)
 
-Şimdi var/mail/ dizini içerisinde root u okuyoruz ve başarıyla
+Şimdi vulnhub sitesinde flag hangi dizinde ona baktım sonra var/mail/ dizini içerisinde root u okudum ve başarıyla
 flag tamamladık.Kioptrix1 isimli makinemizi başarıyla ele geçirdik.
 
 
